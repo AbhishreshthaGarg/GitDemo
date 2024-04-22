@@ -12,6 +12,8 @@ public class Selenium_Introduction {
 				"C:\\Users\\abhishreshthag\\Downloads\\chromedriver_win32\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
+		
+		System.out.println("Abhi is my priority");
 
 	}
 
