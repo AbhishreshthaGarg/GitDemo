@@ -23,6 +23,7 @@ public class RelativeLocators {
 		WebElement TextBoxCheck = driver.findElement(By.cssSelector("[class='form-check-label']"));
 		driver.findElement(with(By.tagName("input")).toLeftOf(TextBoxCheck)).click();
 		System.out.println("ABCD is my priority");
+		System.out.println("XYZ is my priority");
 		
 
 	}
